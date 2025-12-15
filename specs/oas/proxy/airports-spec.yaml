@@ -12,11 +12,7 @@ info:
     url: http://www.apache.org/licenses/LICENSE-2.0.html
 tags:
   - name: Airport
-    description: Operations available to regular developers
-    
-
-
-    
+    description: Operations available to regular developers  
 servers:
   - url: https://34.117.38.184.nip.io/v1/demo
 paths:
