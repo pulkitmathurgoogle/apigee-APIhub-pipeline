@@ -41,7 +41,7 @@ jobs:
       - name: Checkout apiData Builder script repository
         uses: actions/checkout@v5
         with:
-          repository: g-lalevee/APIhub-apiData-builder
+          repository: pulkitmathurgoogle/APIhub-apiData-builder
           path: my-script
           token: ${{ secrets.CHECKOUT_PAT }}
 
