@@ -10,10 +10,6 @@ info:
   license:
     name: Apache 2.0
     url: http://www.apache.org/licenses/LICENSE-2.0.html
-    
-    
-    
-    
 tags:
   - name: Airport
     description: Operations available to regular developers  
