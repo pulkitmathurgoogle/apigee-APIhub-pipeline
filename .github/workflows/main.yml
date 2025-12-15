@@ -52,7 +52,16 @@ jobs:
         run: |
           # bash install-apigee-go-gen 
           curl -s https://apigee.github.io/apigee-go-gen/install | bash
-
+          
+# ================= START OF NEW DEBUG STEP =================
+      - name: Debug Secret Availability
+        run: |
+          if [ -z "${{ secrets.GCP_SERVICE_ACCOUNT }}" ]; then
+            echo "❌ CRITICAL ERROR: The secret GCP_SERVICE_ACCOUNT is EMPTY. GitHub cannot see it."
+          else
+            echo "✅ SUCCESS: The secret was found (content is masked)."
+          fi
+  # ================== END OF NEW DEBUG STEP ==================
 
   # Generate Google Cloud oAuth Token from GCP Serveice Account (Github secret)
       - name: Authenticate to Google Cloud
