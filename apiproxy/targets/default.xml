@@ -4,7 +4,7 @@
   <Flows/>
   <PostFlow name=""/>
   <HTTPTargetConnection>
-    <URL>https://34.117.38.184.nip.io/airports-cicd/v1</URL>
+    <URL>https://35-201-121-246.nip.io/airports-cicd/v1</URL>
     <SSLInfo>
       <Enabled>true</Enabled>
       <Enforce>true</Enforce>
