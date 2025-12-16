@@ -45,9 +45,6 @@ paths:
           $ref: '#/components/responses/OKRequestAirport'
         '404':
           $ref: '#/components/responses/KONotFound'
-          
-          
-          
 components:
   responses:
     OKRequestList:
